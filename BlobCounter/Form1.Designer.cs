@@ -84,7 +84,7 @@
             this.threshold_1.Size = new System.Drawing.Size(120, 20);
             this.threshold_1.TabIndex = 3;
             this.threshold_1.Value = new decimal(new int[] {
-            3,
+            185,
             0,
             0,
             0});
@@ -106,7 +106,7 @@
             this.threshold_2.Size = new System.Drawing.Size(120, 20);
             this.threshold_2.TabIndex = 4;
             this.threshold_2.Value = new decimal(new int[] {
-            10,
+            110,
             0,
             0,
             0});
@@ -127,7 +127,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Location = new System.Drawing.Point(3495, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(6474, 0);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(301, 271);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -143,6 +143,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // threshold_4
             // 
